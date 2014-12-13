@@ -36,7 +36,7 @@ public class TracHandler implements InvocationHandler {
 
 		System.out.println(")");
 		System.out.println("After method!");
-
+		// 调用原始对象的方法
 		return method.invoke(target, args);
 	}
 
